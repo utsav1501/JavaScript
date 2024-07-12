@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .highlight {
+    background-color: yellow;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    </style>
+    </head> 
+    <body>
+        <h1 class="highlight">Welcome to My Website</h1>
+        <p>This is a paragraph with some content.</p>
+        <ul>
+        <li class="bold">Item 1</li>
+        <li>Item 2</li>
+        <li class="highlight">Item 3</li>
+        </ul>
+    <script>
+        var highlightedElements =
+        document.getElementsByClassName("highlight");
+        for (var i = 0; i < highlightedElements.length; i++) {
+        highlightedElements[i].style.color = "red";
+        }
+        var boldElement = document.querySelector("li.bold");
+        boldElement.style.fontSize = "20px";
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,25 @@
+[
+    {
+        
+        "FirstName":"Utsav",
+        "LastName":"kumar",
+        "age":23,
+        "address":{
+            "streetAddress":"22nd Street",
+            "city":"Los Angeles",
+            "postalcode":"10331-3200"
+        },
+        "PhoneNumber":["412 543-0987", "222 543-9876"]
+    },
+    {
+        "firstName":"will",
+        "LastName":"Smith",
+        "age":30,
+        "address":{
+            "streetAddress":"42nd Street",
+            "city":"New York",
+            "postalcode":"7262-3100"
+    },
+    "PhoneNumber":["212 666-5678"]
+    }
+]
